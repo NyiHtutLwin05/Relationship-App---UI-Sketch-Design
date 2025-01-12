@@ -21,7 +21,7 @@ interface BucketListItemProps {
     priority: "high" | "medium" | "low";
     progress: number;
     dueDate: string;
-    images?: string[];
+    images?: readonly string[];
     collaborators?: number;
   };
 }
